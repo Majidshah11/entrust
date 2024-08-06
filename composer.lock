@@ -43,25 +43,10 @@
             ],
             "authors": [
                 {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
+                    "name": "Majid shah",
+                    "email": "shahmajid508@gmail.com"
                 },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                },
-                {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
-                }
+                
             ],
             "description": "Common String Manipulations with regard to casing and singular/plural rules.",
             "homepage": "http://www.doctrine-project.org",
@@ -88,9 +73,9 @@
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.5.*",
+                "illuminate/contracts": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
                 "illuminate/support": "5.5.*",
-                "php": ">=7.0"
+                "php": ">=8.2"
             },
             "suggest": {
                 "illuminate/database": "Required to use the database cache driver (5.5.*).",
@@ -217,8 +202,8 @@
             "time": "2017-09-19 13:09:37"
         },
         {
-            "name": "illuminate/support",
-            "version": "5.5.x-dev",
+            "name": "entrust",
+            "version": "11.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
